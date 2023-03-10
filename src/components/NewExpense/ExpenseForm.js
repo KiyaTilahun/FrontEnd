@@ -55,6 +55,7 @@ function ExpenseForm(props){
             date:new Date(enteredDate),
         }
      props.onsaveExpenseData(expenseData);
+     console.log(expenseData +" haha");
         setEnteredTitle(' ');
         setEnteredAmount(' ');
         setEnteredDate(' ');
